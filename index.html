@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de fixação 4</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body onload="q1(), q3_1(), q3_3()">
+    <h1>Atividade de fixação - 4</h1>
+    <script src="./assets/js/script.js"></script>
+    <section id="at1_container">
+        <div class="at1_card card">
+            <h2>Números impares entre 1 e 50</h2>
+            <textarea disabled id="apresenta" cols="30" rows="5"></textarea>
+            <!-- <div class="at1_answer"></div> -->
+        </div>
+    </section>
+
+    
+    <section id="at2_container">
+        <div class="at2_card card">
+            <h2>Gerador de tabuada (de 0 a 10)</h2>
+            <label>
+                Escolha o número:
+                <input type="number" min="1" max="10" name="tabuada" id="tabuada">
+            </label>
+            <button onclick="q2()">Gerar</button>
+            <textarea disabled class="at2_answer" cols="30" rows="11"></textarea>
+            <!-- <div class="at2_answer"></div> -->
+        </div>
+    </section>
+
+
+    <section id="at3_container">
+        <div class="at3_card card">
+            <h2>Retornando o maior e o menor valor de uma lista</h2>
+            <div>
+
+                <textarea id="mostra_lista" disabled cols="24" rows="2"></textarea>
+                <label for="item" id="l_iten">
+                    Adicionar item a lista:
+                    <input type="number" max="99999" name="item"  id="item">
+                </label>
+                <button onclick="q3_2()" >Adicionar</button>
+            </div>
+            <div>
+                <textarea name="" id="mostra_final" cols="15" rows="3"></textarea>
+            </div>
+            <!-- <div class="at3_answer"></div> -->
+        </div>
+    </section>
+
+</body>
+</html>
